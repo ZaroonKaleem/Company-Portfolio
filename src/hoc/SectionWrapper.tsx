@@ -3,9 +3,9 @@ import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 import { FC } from "react";
 
-interface SectionWrapperProps {
-  idName: string;
-}
+// interface SectionWrapperProps {
+//   idName: string;
+// }
 
 const SectionWrapper = <P extends object>(
   Component: FC<P>,

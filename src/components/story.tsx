@@ -80,9 +80,13 @@ export const Story = () => {
 
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
-            <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
+            {/* <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
             We provide expert security services, efficient facility management, and professional cleaning solutions to ensure safety, functionality, and hygiene.
-            </p>
+            </p> */}
+            <p className="hidden md:block mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
+  We provide expert security services, efficient facility management, and professional cleaning solutions to ensure safety, functionality, and hygiene.
+</p>
+
 
             <Button id="realm-button" containerClass="mt-5">
               More Services

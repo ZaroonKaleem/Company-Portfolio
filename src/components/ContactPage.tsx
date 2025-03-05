@@ -208,7 +208,7 @@ import  EarthCanvas  from "./canvas/EarthCanvas"; // Ensure StarsCanvas is corre
 import  StarsCanvas  from "./canvas/StarCanvas"; // Ensure StarsCanvas is correctly imported
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { MdContactPage } from "react-icons/md";
+// import { MdContactPage } from "react-icons/md";
 
 interface FormState {
   name: string;

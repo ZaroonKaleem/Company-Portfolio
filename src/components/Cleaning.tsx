@@ -1,5 +1,5 @@
 import { PropsWithChildren, useRef, useState } from "react";
-import { TiLocationArrow } from "react-icons/ti";
+// import { TiLocationArrow } from "react-icons/ti";
 import { AnimatedTitle } from "./animated-title";
 interface BentoTiltProps {
   className?: string;
@@ -93,7 +93,8 @@ export const Cleaning = () => {
           id="nexus"
           className="grid grid-cols-2 auto-rows-fr gap-6 h-auto"
         >
-          <BentoTilt className="text-black bento-tilt_1 me-14 md:col-span-1 md:me-0 text-justify">
+                    <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="text-black bento-tilt_1 me-14 md:col-span-1 md:me-0 text-justify"> */}
           <BentoCard
   src="/img/c1.jpg"
   title={
@@ -130,7 +131,8 @@ export const Cleaning = () => {
 
 
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+<BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c2.jpg"
               title={
@@ -146,7 +148,8 @@ export const Cleaning = () => {
                 />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0"> */}
             <BentoCard
 src="/img/c3.jpg"
               title={
@@ -162,7 +165,8 @@ src="/img/c3.jpg"
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c4.jpg"
               title={
@@ -179,7 +183,8 @@ src="/img/c3.jpg"
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c5.jpg"
               title={
@@ -195,7 +200,8 @@ src="/img/c3.jpg"
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c6.jpg"
               title={
@@ -208,7 +214,8 @@ src="/img/c3.jpg"
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c7.jpg"
               title={
@@ -221,7 +228,8 @@ src="/img/c3.jpg"
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c8.jpg"
               title={
@@ -233,7 +241,8 @@ src="/img/c3.jpg"
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c9.jpg"
               title={
@@ -246,7 +255,8 @@ src="/img/c3.jpg"
             />
           </BentoTilt>
 
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c10.jpg"
               title={
@@ -258,7 +268,8 @@ src="/img/c3.jpg"
               description="Removal and prevention of unwanted plants and weeds from gardens, sidewalks, and industrial areas."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
               src="/img/c11.jpg"
               title={
@@ -271,9 +282,10 @@ src="/img/c3.jpg"
               description="General facility maintenance, including cleaning, minor repairs, waste management, and ensuring the building remains in good condition."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c12.jpg"
               title={
                 <>
                  Construction cleaning
@@ -284,9 +296,10 @@ src="/img/c3.jpg"
               description="Cleaning after construction or renovation projects, removing debris, dust, and residues to make the space ready for use."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c13.jpg"
               title={
                 <>
                  Solar system cleaning
@@ -298,9 +311,10 @@ src="/img/c3.jpg"
               description="Cleaning solar panels to remove dust, dirt, and bird droppings, ensuring optimal energy efficiency"
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c14.jpg"
               title={
                 <>
                  Machine cleaning & cooling lubricant service
@@ -312,9 +326,10 @@ src="/img/c3.jpg"
               description="Application of protective coatings on floors to increase durability, prevent wear, and enhance appearance."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c15.jpg"
               title={
                 <>
                  Coating: Long-lasting floor coating
@@ -324,22 +339,10 @@ src="/img/c3.jpg"
               description="Cleaning and maintenance of industrial machines, including the replacement of cooling lubricants to ensure smooth operation."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
-              title={
-                <>
-                 Coating: Long-lasting floor coating
-
-
-                </>
-              }
-              description="Backup services ensure reliable security support by providing additional personnel and resources during emergencies, peak hours, or special events, maintaining safety and operational efficiency."
-            />
-          </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
-            <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c16.jpg"
               title={
                 <>
                  Specific industry solutions
@@ -350,9 +353,10 @@ src="/img/c3.jpg"
               description="Customized cleaning services designed for various industries like healthcare, logistics, and manufacturing."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c17.jpg"
               title={
                 <>
                  Industrial cleaning and service
@@ -362,9 +366,10 @@ src="/img/c3.jpg"
               description="Deep cleaning for factories, warehouses, and industrial plants, including machinery, floors, and workstations."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c18.jpg"
               title={
                 <>
                  Clinics & Hospitals
@@ -373,9 +378,10 @@ src="/img/c3.jpg"
               description="Specialized medical-grade cleaning to maintain strict hygiene in hospitals, reducing infection risks."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c19.jpg"
               title={
                 <>
                  logistics
@@ -385,9 +391,10 @@ src="/img/c3.jpg"
               description="Cleaning services for warehouses, distribution centers, and transport hubs to maintain cleanliness and operational efficiency."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c20.jpg"
               title={
                 <>
                  Senior citizens and nursing homes
@@ -397,9 +404,10 @@ src="/img/c3.jpg"
               description="Cleaning solutions for elder care facilities, ensuring hygiene, comfort, and safety for residents."
             />
           </BentoTilt>
-          <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+          <BentoTilt className="bento-tilt_1 md:me-14 md:col-span-1">
+          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0"> */}
             <BentoCard
-              src="/videos/feature-4.mp4"
+                src="/img/c21.jpg"
               title={
                 <>
                  Housing industry
