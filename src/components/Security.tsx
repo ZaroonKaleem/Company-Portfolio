@@ -303,18 +303,6 @@ export const Security = () => {
               }
             />
           </BentoTilt>
-
-          {/* <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
-            <BentoCard
-              src="/videos/feature-4.mp4"
-              title={
-                <>
-                  Backup
-                </>
-              }
-              description="Backup services ensure reliable security support by providing additional personnel and resources during emergencies, peak hours, or special events, maintaining safety and operational efficiency."
-            />
-          </BentoTilt> */}
         </div>
       </div>
     </section>
